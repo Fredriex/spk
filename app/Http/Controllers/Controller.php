@@ -11,4 +11,16 @@ class Controller extends BaseController{
         return view('home');
     }
 
+    public function kriteria(){
+        return view('home');
+    }
+
+    public function calonKaryawan(){
+        return view('home');
+    }
+
+    public function hasilAkhir(){
+        return view('home');
+    }
+
 }

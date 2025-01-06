@@ -19,3 +19,9 @@ Route::get('/logout', function () {
     Auth::logout();
     return redirect('/');
 })->name('logout');
+
+Route::get('/kriteria', [Controller::class, 'kriteria']);
+Route::get('/calonKaryawan', [Controller::class, 'calonKaryawan']);
+Route::get('/hasilAkhir', [Controller::class, 'hasilAkhir']);
+
+
