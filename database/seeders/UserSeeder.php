@@ -8,12 +8,11 @@ use App\Models\User;
 
 class UserSeeder extends Seeder
 {
-    /**
-     * Run the database seeds.
-     */
+
+
     public function run(): void
     {
-        // Buat satu user
+        
         User::create([
             'name' => 'admin',
             'email' => 'admin@gmail.com',
