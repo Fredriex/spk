@@ -39,7 +39,7 @@
         </nav>
     </div>
     <div class="header" style="background-color : rgb(101, 116, 202);">
-        <h1>Dashboard</h1>
+        <h1>Kriteria</h1>
     </div>
 </body>
 </html>

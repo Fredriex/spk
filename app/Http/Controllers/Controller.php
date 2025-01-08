@@ -12,7 +12,7 @@ class Controller extends BaseController{
     }
 
     public function kriteria(){
-        return view('home');
+        return view('kriteria');
     }
 
     public function calonKaryawan(){
